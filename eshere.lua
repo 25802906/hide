@@ -44,7 +44,7 @@ local function createEspHandler(instance, category)
 
     local newEspObject = espLibrary.AddInstance(itemInstance, {
         enabled = isEnabled,
-        text = itemName .. ' | {distance}', -- Display text with placeholders for name and distance
+        text = itemName .. ' [{distance}]', -- Display text with placeholders for name and distance
         textColor = textColor,
         textOutline = true,
         textOutlineColor = Color3.new(),
