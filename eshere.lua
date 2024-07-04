@@ -39,7 +39,7 @@ local function createEspHandler(instance, category)
     elseif category == 'WorldModel' then
         textColor = { Color3.fromRGB(255, 0, 0), 1 } -- Red color for Gun
     else
-        textColor = { Color3.fromRGB(107, 201, 135), 1 } -- Default color for other objects
+        textColor = { Color3.fromRGB(0, 0, 255), 1 } -- Default color for other objects
     end
 
     local newEspObject = espLibrary.AddInstance(itemInstance, {
