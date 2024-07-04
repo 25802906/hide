@@ -51,7 +51,7 @@ local function createEspHandler(instance, category)
         textSize = 10, -- Text size
         textFont = 1,
         limitDistance = true,
-        maxDistance = 10000, -- Maximum distance for ESP display
+        maxDistance = 3000, -- Maximum distance for ESP display
     })
 
     table.insert(espObjects[category], newEspObject)
